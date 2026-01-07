@@ -2,7 +2,7 @@
 
 A.K.A - Simple Google Maps Scraper
 
-A lightweight, professional Python tool designed for startups to extract high-quality B2B leads from dense urban areas.
+A free lightweight, professional Python tool designed for startups and businesses to extract high-quality B2B leads from dense urban areas.
 
 Get thousands of leads for free using Google Maps! (check disclaimer)
 
