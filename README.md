@@ -47,11 +47,14 @@ Most tools miss 70% of leads in cities because Google only returns 60 results at
 
 📊 Config
 
+(`enterprise_plan`: false) will only save name and location data
+(`enterprise_plan`: true) will save contact infomation, ratings, opening times and more
+
 ```json
 {
     "search_term": "vintage boutique",
     "budget": 1000,
-    "enterprise_plan": true, # [false => location, addresss] [true => Includes phone_numbers, website_uri, ratings, ext...]
+    "enterprise_plan": true,
     "output_directory": "outputs",
     "coordinates": {
         "high": { # Top right corner of search rectangle area
