@@ -4,7 +4,7 @@ A.K.A - Simple Google Maps Scraper
 
 A free lightweight, professional Python tool designed for startups and businesses to extract high-quality B2B leads from dense urban areas.
 
-Get thousands of leads for free using Google Maps! (check disclaimer)
+Get thousands of leads free using Google Maps! (check disclaimer - everything is subject to Googles pricing)
 
 ### Why use this?
 * **Zero Dependencies:** Runs on standard Python. No `pip install` required.
@@ -16,7 +16,7 @@ Get thousands of leads for free using Google Maps! (check disclaimer)
 
 #### One of the most cost-effective comprehensive solutions for extracting leads from google maps in densely populated areas.
 
-Unlike traditional scrapers that use expensive proxies or hit the 60-result ceiling, this tool uses an API-first Recursive algorithm. It ensures 100% area coverage while minimizing API costs.
+Unlike traditional scrapers that use expensive proxies or hit the 60-result ceiling, this tool uses an API-first approach with a divide and conquer algorithm. It ensures 100% area coverage while minimizing API costs.
 
 ---
 
@@ -83,4 +83,4 @@ Most tools miss 70% of leads in cities because Google only returns 60 results at
 * **Costs:** The developer(s) of this tool is NOT responsible for any costs incurred through your use of the Google Cloud Platform. Always monitor your usage and set billing alerts in the Google Cloud Console.
 * **Terms of Service:** You are responsible for ensuring that your use of this data complies with Google's Terms of Service and local data protection laws (e.g., GDPR, CCPA).
 * **As-Is:** This software is provided "as is", without warranty of any kind. In no event shall the authors be liable for any claim, damages, or other liability.
-
+* **General Liability:** Authors are not liable for any misconseptions or undesired outcomes as a result of using this tool
