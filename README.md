@@ -8,30 +8,30 @@ Get thousands of leads for free using Google Maps! (check disclaimer)
 
 ### Why use this?
 * **Zero Dependencies:** Runs on standard Python. No `pip install` required.
-* **Deep Extraction:** Uses a recursive Quad-Tree algorithm to bypass the Google 60-result limit in crowded cities.
+* **Deep Extraction:** Uses a recursive algorithm to bypass the Google 60-result limit in crowded cities.
 * **Budget Friendly:** Built-in budget controls to keep your API costs predictable.
 * **Simple:** The tool is designed to be simple and easy to utilise
 
-###💡 The Value Proposition
+### 💡 The Value Proposition
 
-#### One of the most cost-effective comprehensive solutions for extracting leads from google maps.
+#### One of the most cost-effective comprehensive solutions for extracting leads from google maps in densely populated areas.
 
-Unlike traditional scrapers that use expensive proxies or hit the 60-result ceiling, this tool uses an API-first Recursive Quad-Tree algorithm. It ensures 100% area coverage while minimizing API costs through precise field masking and intelligent grid partitioning.
+Unlike traditional scrapers that use expensive proxies or hit the 60-result ceiling, this tool uses an API-first Recursive algorithm. It ensures 100% area coverage while minimizing API costs.
 
 ---
 
 ## 🚀 Quick Start
 
-1. **Get your API Key:** Grab a `Places Api` key from the [Google Cloud Console](https://console.cloud.google.com/).
+1. **Get your API Key:** Grab a **Google Places** api key from the [Google Cloud Console](https://console.cloud.google.com/).
 2. **Set your Key:**
    ```bash
    export GOOGLE_MAPS_KEY='your_api_key_here'
    ```
 3. **Configure Search:** Open `config.json` set you search term and the coordinates of the region you want to search (search region is a rectangle with low/high set points)
 4. **Run:** 
-```bash
-python3 main.py
-```
+   ```bash
+   python3 main.py
+   ```
 Your leads will appear as CSV files in the `/outputs` folder, ready for your CRM or cold outreach.
 
 ---
@@ -47,10 +47,24 @@ Most tools miss 70% of leads in cities because Google only returns 60 results at
 
 📊 Config
 
-Variable,Description
-budget,Max number of API calls to prevent unexpected costs.
-enterprise_plan,Set to True to include Phone Numbers and Website URLs.
-coordinates,Define the North-East and South-West corners of your target zone.
+```json
+{
+    "search_term": "vintage boutique",
+    "budget": 1000,
+    "enterprise_plan": true,
+    "output_directory": "outputs",
+    "coordinates": {
+        "high": {
+            "latitude": 40.7831, 
+            "longitude": -73.9439
+        },
+        "low": {
+            "latitude": 40.7019, 
+            "longitude": -74.0170
+        }
+    }
+}
+```
 
 ---
 
