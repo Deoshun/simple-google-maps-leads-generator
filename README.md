@@ -51,14 +51,14 @@ Most tools miss 70% of leads in cities because Google only returns 60 results at
 {
     "search_term": "vintage boutique",
     "budget": 1000,
-    "enterprise_plan": true,
+    "enterprise_plan": true, # [false => location, addresss] [true => Includes phone_numbers, website_uri, ratings, ext...]
     "output_directory": "outputs",
     "coordinates": {
-        "high": {
+        "high": { # Top right corner of search rectangle area
             "latitude": 40.7831, 
             "longitude": -73.9439
         },
-        "low": {
+        "low": { # Bottom left corner of search rectangle area
             "latitude": 40.7019, 
             "longitude": -74.0170
         }
