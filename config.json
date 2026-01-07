@@ -1,0 +1,16 @@
+{
+    "search_term": "coffee shop",
+    "budget": 1000,
+    "enterprise_plan": false,
+    "output_directory": "outputs",
+    "coordinates": {
+        "high": {
+            "latitude": 37.4419,
+            "longitude": -122.0311
+        },
+        "low": {
+            "latitude": 37.3541, 
+            "longitude": -122.1430
+        }
+    }
+}
