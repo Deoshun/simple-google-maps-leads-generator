@@ -48,6 +48,7 @@ Most tools miss 70% of leads in cities because Google only returns 60 results at
 📊 Config
 
 (`enterprise_plan`: false) will only save name and location data
+
 (`enterprise_plan`: true) will save contact infomation, ratings, opening times and more
 
 ```json
@@ -83,7 +84,7 @@ Most tools miss 70% of leads in cities because Google only returns 60 results at
 
 **Important:** This tool interacts with the Google Places API which is a paid service. 
 
-* **Costs:** The developer(s) of this tool is NOT responsible for any costs incurred through your use of the Google Cloud Platform. Always monitor your usage and set billing alerts in the Google Cloud Console.
+* **Costs:** The developer(s) of this tool are NOT responsible for any costs incurred through your use of the Google Cloud Platform. Always monitor your usage and set billing alerts in the Google Cloud Console.
 * **Terms of Service:** You are responsible for ensuring that your use of this data complies with Google's Terms of Service and local data protection laws (e.g., GDPR, CCPA).
 * **As-Is:** This software is provided "as is", without warranty of any kind. In no event shall the authors be liable for any claim, damages, or other liability.
 * **General Liability:** Authors are not liable for any misconseptions or undesired outcomes as a result of using this tool
