@@ -25,7 +25,11 @@ Unlike traditional scrapers that use expensive proxies or hit the 60-result ceil
 1. **Get your API Key:** Grab a **Google Places** api key from the [Google Cloud Console](https://console.cloud.google.com/).
 2. **Set your Key:**
    ```bash
+   # Mac / Linux
    export GOOGLE_MAPS_KEY='your_api_key_here'
+
+   # Windows
+   set GOOGLE_MAPS_KEY='your_api_key_here'
    ```
 3. **Configure Search:** Open `config.json` set you search term and the coordinates of the region you want to search (search region is a rectangle with low/high set points)
 4. **Run:** 
